@@ -1,0 +1,11 @@
+FAIL: Flow Matching Adversarial Imitation Learning for Image Generation
+Copyright 2025 Yeyao Ma, Chen Li, Xiaosong Zhang, Han Hu, Weidi Xie
+
+This project includes code derived from:
+
+DanceGRPO (https://github.com/XueZeyue/DanceGRPO)
+Copyright 2025 Zeyue Xue
+Licensed under Apache License 2.0
+
+FastVideo (https://github.com/hao-ai-lab/FastVideo)
+Licensed under Apache License 2.0

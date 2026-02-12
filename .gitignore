@@ -1,0 +1,66 @@
+# Checkpoints and model weights
+output/
+*.pt
+*.safetensors
+*.bin
+*.ckpt
+*.pth
+
+# Large data (keep prompt files, exclude model checkpoints and images)
+data/flux/
+data/Qwen3-VL-2B-Instruct/
+data/teacher_images/
+data/train_flux_rl_embeddings/
+data/hpsv3/.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+wandb/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.temp
