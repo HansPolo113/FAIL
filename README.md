@@ -96,7 +96,25 @@ WORLD_SIZE=4 RANK=3 MASTER_ADDR=<master_ip> bash scripts/finetune/finetune_flux_
 
 ## Sampling
 
-Generate images using Ray-based distributed inference:
+Generate images using Ray-based distributed inference.
+
+### 1. Install Ray
+
+```bash
+pip install ray==2.40.0
+```
+
+### 2. Setup Ray Cluster
+
+```bash
+# On head node
+ray start --head --port=6379
+
+# On worker nodes
+ray start --address=<head_node_ip>:6379
+```
+
+### 3. Run Sampling
 
 ```bash
 # Set CHECKPOINT_PATH in the script to load trained model
