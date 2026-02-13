@@ -6,7 +6,7 @@ FAIL minimizes policy-expert divergence through adversarial training without exp
 - **FAIL-PD (Pathwise Derivative)**: Backpropagates discriminator gradients through the ODE solver
 - **FAIL-PG (Policy Gradient)**: Policy gradient alternative using Flow Policy Optimization (FPO)
 
-Please see [[Paper](https://arxiv.org/abs/xxxx.xxxxx)] for more information.
+Please see [[Paper](https://arxiv.org/abs/2602.12155)] for more information.
 
 <table><tr><td>
     Yeyao&nbsp;Ma<sup>1</sup>, Chen&nbsp;Li<sup>2</sup>, Xiaosong&nbsp;Zhang<sup>3</sup>, Han&nbsp;Hu<sup>3</sup>, and Weidi&nbsp;Xie<sup>1</sup>.
@@ -38,6 +38,8 @@ mkdir -p ./data/flux ./data/Qwen3-VL-2B-Instruct
 The expert data consists of:
 - `gemini_13k.parquet`: 13K prompts with metadata (uuid, content, etc.)
 - Expert images: one image per prompt, organized by uuid
+
+Download from [HuggingFace](https://huggingface.co/datasets/HansPolo/FAIL-expert-data):
 
 ```bash
 hf download HansPolo/FAIL-expert-data --repo-type dataset --local-dir ./data
@@ -110,10 +112,10 @@ This repo is built upon these amazing works:
 ## Citation
 
 ```bibtex
-@article{ma2026ail,
+@article{ma2025fail,
   title={FAIL: Flow Matching Adversarial Imitation Learning for Image Generation},
   author={Ma, Yeyao and Li, Chen and Zhang, Xiaosong and Hu, Han and Xie, Weidi},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2602.12155},
   year={2025}
 }
 ```
