@@ -112,10 +112,10 @@ This repo is built upon these amazing works:
 ## Citation
 
 ```bibtex
-@article{ma2025fail,
+@article{ma2026fail,
   title={FAIL: Flow Matching Adversarial Imitation Learning for Image Generation},
   author={Ma, Yeyao and Li, Chen and Zhang, Xiaosong and Hu, Han and Xie, Weidi},
   journal={arXiv preprint arXiv:2602.12155},
-  year={2025}
+  year={2026}
 }
 ```
